@@ -1,6 +1,6 @@
 # elmer
 
-<p style="text-align: center">
+<p style="text-align: center" align="center">
 <img src="imgs/fudd.png" width="250px"/><br />
 "Shhh. Be vewy vewy quiet, I'm hunting wabbits"<br />
 - Elmer Fudd
