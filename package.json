@@ -1,0 +1,31 @@
+{
+  "name": "@bishopcais/elmer",
+  "version": "1.0.0",
+  "description": "Utility suite for helping debug rabbitmq",
+  "scripts": {
+    "lint": "eslint \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishopcais/elmer.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "debug"
+  ],
+  "author": "Matthew Peveler <matt.peveler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bishopcais/elmer/issues"
+  },
+  "homepage": "https://github.com/bishopcais/elmer#readme",
+  "dependencies": {
+    "@cisl/io": "^1.2.0",
+    "@cisl/zepto-logger": "^1.3.1",
+    "commander": "^6.2.0"
+  },
+  "devDependencies": {
+    "@masterodin/eslint-config-javascript": "^2.0.1",
+    "eslint": "^7.12.1"
+  }
+}
