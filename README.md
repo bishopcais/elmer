@@ -32,6 +32,11 @@ Commands:
   queue <name>              output messages to queue
 ```
 
+For the topic name, it is useful to remember these wildcard symbols:
+
+- `*` (star) can substitute for exactly one word.
+- `#` (hash) can substitute for zero or more words.
+
 ## Examples
 
 ### transcript-worker
