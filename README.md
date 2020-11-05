@@ -15,6 +15,25 @@ git clone https://github.com/bishopcais/elmer
 cd elmer
 ```
 
+## Configuration
+
+To utilize elmer, you will need to provide a `cog.json` with connection details
+for RabbitMQ. This file should be in your home directory (`~/cog.json`) and
+be structured like such:
+
+```json
+{
+  "rabbit": {
+    "url": "localhost",
+    "username": "guest",
+    "password": "guest",
+  }
+}
+```
+
+For full details on what you can configure, please see
+[cislrpi/io#rabbitmq](https://github.com/cislrpi/io#rabbitmq).
+
 ## Usage
 
 ```text
